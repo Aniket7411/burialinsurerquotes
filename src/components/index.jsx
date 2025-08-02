@@ -36,13 +36,13 @@ const Home = () => {
                         Answer 2 easy <span className="text-[#fa0000]">questions below</span> to{' '}
                         <span className="underline">check <br /> eligibility</span> in just 30 seconds
                     </p>
-                    <div className="flex justify-center items-center gap-4 my-6">
+                    <div className="flex justify-center items-center gap-4 my-4">
                         {[1, 2, 3].map((_, index) => (
                             <div
                                 key={index}
                                 className="bg-[#94aaad] rounded-lg border-black p-3 w-12 h-12 flex items-center justify-center"
                             >
-                                <FaLongArrowAltDown size={28} className="text-white text-2xl" />
+                                <FaLongArrowAltDown size={32} className="text-white text-2xl" />
                             </div>
                         ))}
                     </div>

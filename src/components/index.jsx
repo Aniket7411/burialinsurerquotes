@@ -32,7 +32,7 @@ const Home = () => {
                         <span className="bg-[#f7ff00]">$25,000</span> Cash Burial Plan For Seniors
                     </h1>
 
-                    <p className="font-semibold text-base sm:text-lg md:text-3xl text-center mb-4 px-2">
+                    <p className="font-semibold text-xl  sm:text-lg md:text-3xl text-center mb-4 px-2">
                         Answer 2 easy <span className="text-[#fa0000]">questions below</span> to{' '}
                         <span className="underline">check <br /> eligibility</span> in just 30 seconds
                     </p>

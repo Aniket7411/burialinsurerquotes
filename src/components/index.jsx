@@ -27,7 +27,7 @@ const Home = () => {
             {!answeredFirstQuestion ? (
                 // First Question Page
                 <div className="flex flex-col items-center">
-                    <h1 className="text-2xl  md:text-4xl font-bold text-center max-w-2xl mb-6">
+                    <h1 className="text-3xl  md:text-4xl font-bold text-center max-w-2xl mb-6">
                         See If You Qualify For This <br /> <span className="text-[#fa0000]">Affordable</span>{' '}
                         <span className="bg-[#f7ff00]">$25,000</span> Cash Burial Plan For Seniors
                     </h1>
@@ -52,13 +52,13 @@ const Home = () => {
                     <div className="flex flex-col text-xl md:text-3xl md:flex-row gap-4 mb-8">
                         <button
                             onClick={() => handleFirstQuestion('yes')}
-                            className="bg-[#2ecc71] text-white font-semibold rounded-md px-7 py-3 md:px-9 md:py-5 w-[200px]  hover:bg-green-600 transition"
+                            className="bg-[#2ecc71] text-white font-semibold rounded-md px-9 py-5 md:px-9 md:py-5 w-[200px]  hover:bg-green-600 transition"
                         >
                             Yes
                         </button>
                         <button
                             onClick={() => handleFirstQuestion('no')}
-                            className="bg-[#ff0000] text-white font-semibold rounded-md px-7 py-3 w-[200px] md:px-9 md:py-5 hover:bg-red-700 transition"
+                            className="bg-[#ff0000] text-white font-semibold rounded-md px-9 py-5 w-[200px] md:px-9 md:py-5 hover:bg-red-700 transition"
                         >
                             No
                         </button>

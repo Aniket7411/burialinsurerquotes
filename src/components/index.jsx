@@ -40,9 +40,9 @@ const Home = () => {
                         {[1, 2, 3].map((_, index) => (
                             <div
                                 key={index}
-                                className="bg-blue-600 border-2 border-black p-4 w-16 h-16 flex items-center justify-center"
+                                className="bg-[#94aaad] rounded-lg border-black p-3 w-12 h-12 flex items-center justify-center"
                             >
-                                <FaLongArrowAltDown className="text-white text-2xl" />
+                                <FaLongArrowAltDown size={28} className="text-white text-2xl" />
                             </div>
                         ))}
                     </div>

@@ -27,7 +27,7 @@ const Home = () => {
             {!answeredFirstQuestion ? (
                 // First Question Page
                 <div className="flex flex-col items-center">
-                    <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center max-w-2xl mb-6">
+                    <h1 className="text-2xl  md:text-4xl font-bold text-center max-w-2xl mb-6">
                         See If You Qualify For This <br /> <span className="text-[#fa0000]">Affordable</span>{' '}
                         <span className="bg-[#f7ff00]">$25,000</span> Cash Burial Plan For Seniors
                     </h1>

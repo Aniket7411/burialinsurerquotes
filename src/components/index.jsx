@@ -37,14 +37,20 @@ const Home = () => {
                         <span className="underline">check <br /> eligibility</span> in just 30 seconds
                     </p>
                     <div className="flex justify-center items-center gap-4 my-4">
+
                         {[1, 2, 3].map((_, index) => (
                             <div
                                 key={index}
-                                className="bg-[#94aaad] rounded-lg border-black p-2 shadow-lg w-12 h-12 flex items-center justify-center"
+                                className="rounded-lg  shadow-lg w-12 h-12 flex items-center justify-center"
                             >
-                                <FaLongArrowAltDown size={32} className="text-white text-2xl" />
+                                <img
+                                    src="../arrow.jpeg"
+                                    alt="Arrow"
+                                    className="w-full h-full object-contain"
+                                />
                             </div>
                         ))}
+
                     </div>
 
                     <p className="text-center md:text-4xl font-bold text-2xl mb-4">Are you over 55?</p>
@@ -129,7 +135,7 @@ const Home = () => {
 
                     <a href="tel:8777000552">
                         <p className='bg-[#2ecc71] text-2xl md:text-4xl text-white px-6 rounded-md py-5 text-center cursor-pointer hover:bg-green-600 transition'>
-                            CALL NOW: 877-700-0552
+                            CALL NOW: 1 (833) 441-1707
                         </p>
                     </a>
 
